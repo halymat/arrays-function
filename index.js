@@ -31,6 +31,8 @@ console.log(languages); // ["C#", "JavScript", "Ruby", "PHP", "Python", "Kotlin"
 // Add 'Java' after 'Ruby'
 languages.splice(3, 0, "Java");
 console.log(languages); // [ 'C#', 'JavScript', 'Ruby', 'Java', 'PHP', 'Python', 'Kotlin' ]
+
+// Remove the first item in the array
 const removeFirstElement = languages.shift();
 console.log("The removed element is " + removeFirstElement); // The removed element is C#
 console.log(languages); // [ 'JavScript', 'Ruby', 'Java', 'PHP', 'Python', 'Kotlin' ]
