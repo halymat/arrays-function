@@ -42,8 +42,6 @@ languages.unshift("Scala", "Swift");
 console.log(languages); // [ 'Scala', 'Swift', 'JavScript', 'Ruby','Java', 'PHP', 'Python','Kotlin']
 
 // Replace 'PHP' with 'Go' and 'Rust'
-// languages.splice(4, , "Go", "Rust");
-// console.log(languages);
 const replaceGoandRust = languages.indexOf("PHP");
 languages.splice(replaceGoandRust, 1, "Go", "Rust");
 console.log(languages); // [ 'Scala', 'Swift', 'JavScript', 'Ruby','Java', 'Go', 'Rust' 'Python','Kotlin']
